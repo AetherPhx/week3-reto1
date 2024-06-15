@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Checkout</h1>
-    <form action="">
+    <form>
         <div>
             <label for="payment-method">Payment Method</label>
             <select name="payment-method" id="payment-method">
@@ -19,18 +19,20 @@
 
         <fieldset>
             <legend>Shipping Method</legend>
-            
-            <input type="radio" name="shiping-method" id="free-2" value="2-day" checked>
-            <label for="free-2">FREE - 2 Day Shipping</label>
-            <br>
+            <div>
+                <input type="radio" name="shiping-method" id="free-2" value="2-day" checked>
+                <label for="free-2">FREE - 2 Day Shipping</label>
+            </div>
 
-            <input type="radio" name="shiping-method" id="standard-4-5" value="standard">
-            <label for="standard-4-5">Standard Shipping (4 - 5 Business Days)</label>
-            <br>
+            <div>
+                <input type="radio" name="shiping-method" id="standard-4-5" value="standard">
+                <label for="standard-4-5">Standard Shipping (4 - 5 Business Days)</label>
+            </div>
             
-            <input type="radio" name="shiping-method" id="free-5" value="no-rush">
-            <label for="free-5">FREE - No Rush Shipping (5 Business Days)</label>
-            
+            <div>
+                <input type="radio" name="shiping-method" id="free-5" value="no-rush">
+                <label for="free-5">FREE - No Rush Shipping (5 Business Days)</label>
+            </div>
         </fieldset>
         
         <div>
